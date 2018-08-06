@@ -1,9 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { AppRoutingModule } from './/app-routing.module';
 
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
-import { AppRoutingModule } from './/app-routing.module';
 import { MainComponent } from './main/main.component';
 import { QsomosComponent } from './qsomos/qsomos.component';
 import { ProyectosComponent } from './proyectos/proyectos.component';
