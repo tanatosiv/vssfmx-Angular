@@ -1,2 +1,22 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
+body, html{
+    /* color:white; */
+  font-family:'Opens Sans',helvetica;  
+  height:100%;
+  width:100%;
+  margin: 0px;
+}
+.carrusel{
+    background-image: url(/src/assets/imgs/vssfmx.jpg);
+    /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; */
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    /* padding: 50px; */
+    text-align: center;
+}
