@@ -1,5 +1,5 @@
-<nav id="topNav" class="navbar fixed-top navbar-toggleable-sm navbar-inverse bg-warning text-white ">
-  <button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+<nav id="topNav" class="navbar fixed-top navbar-toggleable-sm  navbar-inverse bg-warning text-white ">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target=".navbar-collapse">
       ☰
   </button>
   <div class="navbar-collapse collapse">
@@ -8,20 +8,20 @@
               <a class="nav-link" [routerLink]="['/quienes-somos']">Quienes somos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" routerLink="#">Proyectos</a>
+            <a class="nav-link" [routerLink]="['/Proyectos']">Proyectos</a>
         </li>
           <li class="nav-item">
-              <a class="nav-link" routerLink="#">Voluntarios</a>
+              <a class="nav-link" [routerLink]="['/Voluntarios']">Voluntarios</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" routerLink="#">Alianzas</a>
+              <a class="nav-link" [routerLink]="['/Alianzas']">Alianzas</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" [routerLink]="['/hvoluntario']">Hazte Voluntario</a>
+              <a class="nav-link" [routerLink]="['/sevoluntario']">Hazte Voluntario</a>
           </li>
       </ul>
   </div>
-  <a class="navbar-brand mx-auto" routerLink="#">Logo VSSF</a>
+  <a class="navbar-brand mx-auto" [routerLink]="['/main']">Logo VSSF</a>
   <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav ml-auto">
           <li class="nav-item">

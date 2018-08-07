@@ -1,7 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CommonModule } from '@angular/common';
+// import { HttpModule } from '@angular/http';
 //aqui se ponen los modulos para el ruteo
+
 
 import {MainComponent} from './main/main.component';
 // import {NavComponent} from './nav/nav.component';
