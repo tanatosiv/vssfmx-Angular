@@ -1,10 +1,11 @@
 #qsomos{
-    background: url(/src/assets/imgs/vssfmx.jpg) no-repeat fixed center;
-   -webkit-background-size: cover;
+    /* background: url(/src/assets/imgs/vssfmx.jpg) no-repeat fixed center; */
+   /* -webkit-background-size: cover;
    -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-   height: 100%;
-   width: 100% ;
-   text-align: center;
+   -o-background-size: cover;*/
+   background-size: cover; 
+   /* height: auto;
+   width: 100% ; */
+   margin: auto;
+   background-image: url(/src/assets/imgs/justinafuentes.jpg);
 }

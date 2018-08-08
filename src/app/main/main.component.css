@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
-body, html{
-    /* color:white; */
+/* body, html{
+    color:white;
   font-family:'Opens Sans',helvetica;  
   height:100%;
   width:100%;
@@ -9,14 +9,28 @@ body, html{
 }
 .carrusel{
     background-image: url(/src/assets/imgs/vssfmx.jpg);
-    /* -webkit-background-size: cover;
+    -webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover; */
+    -o-background-size: cover;
     background-repeat: no-repeat;
     background-position: right top;
     background-size: cover;
     height: 500px;
     width: 500px;
-    /* padding: 50px; */
+    padding: 50px;
     text-align: center;
+} */
+/* 
+.divpadrecarousel{
+    background-image: url('/src/assets/imgs/hazteVssf.jpg') ;
+    width:100%;
+    height:100%;
+    background-repeat:no-repeat;
+    background-position:center center;
+} */
+#divpadrecarousel{
+    width: 600px;
+    position: relative;
+    margin: auto;
+    height: 400px;
 }
