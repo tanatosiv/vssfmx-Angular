@@ -1,6 +1,10 @@
 #volunter{
-    background-image: url(/src/assets/imgs/voluntarios3.jpg);
+    /* background-image: url(/src/assets/imgs/voluntarios3.jpg); */
     background-repeat: no-repeat;
     background-position: center center;
+}
+
+.formulario{
+    margin: auto;
 }
 

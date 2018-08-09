@@ -1,8 +1,8 @@
 #qsomos{
-    /* background: url(/src/assets/imgs/vssfmx.jpg) no-repeat fixed center; */
+    background: url(/src/assets/imgs/vssfmx.jpg) no-repeat fixed center; 
    /* -webkit-background-size: cover;
    -moz-background-size: cover;
-   -o-background-size: cover;*/
+   -o-background-size: cover;
    background-size: cover; 
    /* height: auto;
    width: 100% ; */
