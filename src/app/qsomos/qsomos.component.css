@@ -1,11 +1,9 @@
 #qsomos{
-    background: url(/src/assets/imgs/vssfmx.jpg) no-repeat fixed center; 
-   /* -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover; 
-   /* height: auto;
-   width: 100% ; */
-   margin: auto;
-   background-image: url(/src/assets/imgs/justinafuentes.jpg);
+/* margin: auto; */
+margin-top: 100px;
+/* width: 500px;
+height: 460px; */
+background-image: url(/src/assets/imgs/vssfmx.jpg);
+background-size: cover;
+background-color: rgb(236, 224, 217);
 }
