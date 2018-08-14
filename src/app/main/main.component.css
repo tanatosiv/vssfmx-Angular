@@ -1,9 +1,18 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
+* {
+    box-sizing: border-box;
+  }
 
 #divpadrecarousel{
-    width: 600px;
+    width: 100%;
     position: relative;
     margin: auto;
-    height: 400px;
+    height: 100%;
+}
+
+.container-fluid{
+    position: absolute;
+    bottom: 0;
+   
 }
