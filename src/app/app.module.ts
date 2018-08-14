@@ -12,6 +12,8 @@ import { VoluntariosComponent } from './voluntarios/voluntarios.component';
 import { AlianzasComponent } from './alianzas/alianzas.component';
 import { SeVoluntarioComponent } from './se-voluntario/se-voluntario.component';
 import { BarraSocialComponent } from './barra-social/barra-social.component';
+// import { NgxTwitterTimelineModule } from 'ngx-twitter-timeline';
+
 
 @NgModule({
   declarations: [
@@ -27,7 +29,8 @@ import { BarraSocialComponent } from './barra-social/barra-social.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    // NgxTwitterTimelineModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
