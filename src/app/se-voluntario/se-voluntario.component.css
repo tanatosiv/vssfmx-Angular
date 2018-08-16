@@ -2,11 +2,12 @@
     max-width: 100%;
     position: relative;
    height: auto;
-   padding-top: initial;
+   padding-top: 10px;
 }
 
 .formulario{
     margin: auto;
-    margin-left: 120px;
+    /* margin-left: 120px; */
+    width: 400px;
 }
 
